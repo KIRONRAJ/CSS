@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 200px;
+}
+h1 {
+  color: white;
+}
+h2,
+p {
+  color: #6b6e74;
+}
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+
+.left {
+  background-color: #1f262d;
+  height: 100vh;
+  width: 60%;
+}
+
+.right {
+  background-color: #0aa675;
+  height: 100vh;
+  width: 40%;
+  position: relative;
+}
+
+button {
+  font-size: 15px;
+  background-color: #0aa675;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  margin: 10% 0 20% 0;
+  width: 150px;
+  cursor: pointer;
+}
+.container1 {
+  display: flex;
+  flex-direction: column;
+  margin: 20% 10% 0% 10%;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  margin: 35% 10% 0% 10%;
+}
+
+h1,
+h2,
+p {
+  margin: 10px;
+}
+
+.navbar {
+  margin-top: 120px;
+  margin-left: 10%;
+}
+
+.navbar li {
+  display: inline-block;
+  padding: 5px;
+  font-size: 12px;
+}
+
+.link {
+  color: #6b6e74;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.container2 h2 {
+  color: white;
+}
+
+.form {
+  position: relative;
+  margin: 30px 0;
+}
+
+.form input {
+  font-size: 15px;
+  color: white;
+  border: none;
+  border-bottom: 1px solid white;
+  width: 100%;
+  outline: none;
+  background: none;
+  padding: 0 5px;
+  height: 40px;
+}
+
+.logo img {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  margin-left: 78px;
+}
